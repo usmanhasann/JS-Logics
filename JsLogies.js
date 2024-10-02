@@ -60,16 +60,10 @@
 // console.log(copynames);
 
 //Rest Operator
-function sum(...a) // , b, c,
-// ...res
-{
-  console.log(
-    // res
-    a
-  );
-  return;
-  //  a + b + " " + c;
+function sum(a, b, c, ...res) {
+  console.log(res);
+  return a + b + " " + c;
 }
-//TODO:icma ju element hmna pass kyin hei  wo sabb combine hu jaty hein ju ko co
+//TODO:icma ju element hmna pass kyin hei  wo sabb combine hu jaty hein ju ko code ma use ni jhwy
 let newdata = sum(2, 3, "usman", 2, 3, 4, 2, 4, 2);
 console.log(newdata);
