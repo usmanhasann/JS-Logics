@@ -1,10 +1,10 @@
-// //01- Adiing two arrays using spread operator
+// //TODO:01- Adiing two arrays using spread operator
 // const array1 = ["Alice", "Bob", "Charlie"];
 // const array2 = ["David", "Eve", "Frank"];
 // const newarr = [...array1, ...array2];  //icma spread operator orignal array ki shallow copy bna rha hein mtlb sary sary ka items ko new arr ma show krwa rha hein
 // console.log(newarr); //ye array1 and array2 ko combine kr ka dy daiti hein
 
-//Having an array of objects  and we want to display only those items having the similar properties matchh
+//TODO:02-Having an array of objects  and we want to display only those items having the similar properties matchh
 let electronicDevices = [
   { type: "TV", brand: "Samsung", model: "QLED 4K" },
   { type: "Laptop", brand: "Dell", model: "XPS 13" },
